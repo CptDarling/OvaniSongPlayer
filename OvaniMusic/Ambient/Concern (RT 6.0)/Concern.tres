@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://b3os5wuv5fgle"]
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://bncljsf1v0544"]
 
 [ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_v6756"]
-[ext_resource type="AudioStream" uid="uid://b7ncnhglpbwve" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern Intensity 1.wav" id="1_wg6ue"]
-[ext_resource type="AudioStream" uid="uid://ce4xpvhvp4t1w" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern Intensity 2.wav" id="2_1m6u5"]
-[ext_resource type="AudioStream" uid="uid://baqbmug30li4x" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern Main.wav" id="3_ns8w3"]
-[ext_resource type="AudioStream" uid="uid://dcup7w36auync" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern cut 30.wav" id="4_v6p7x"]
-[ext_resource type="AudioStream" uid="uid://c0blrgubw3l71" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern cut 60.wav" id="5_gcbgr"]
+[ext_resource type="AudioStream" uid="uid://cs7d8kevkrw8f" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern Intensity 1.wav" id="1_wg6ue"]
+[ext_resource type="AudioStream" uid="uid://bcr75wwmk452f" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern Intensity 2.wav" id="2_1m6u5"]
+[ext_resource type="AudioStream" uid="uid://bjb4gbknrj6xi" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern Main.wav" id="3_ns8w3"]
+[ext_resource type="AudioStream" uid="uid://decesrn1ve4n6" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern cut 30.wav" id="4_v6p7x"]
+[ext_resource type="AudioStream" uid="uid://bg3irmpuefn88" path="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern cut 60.wav" id="5_gcbgr"]
 
 [resource]
 script = ExtResource("1_v6756")
