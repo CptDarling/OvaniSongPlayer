@@ -22,7 +22,7 @@ func disable_controls(value: bool) -> void:
 
 func _on_tree_song_selected(ovani_song) -> void:
 	if ovani_song:
-		print("song changed: %s" % ovani_song)
+		prints("song changed:", ovani_song)
 		disable_controls(false)
 		intensity_ui.set_intensity(IntensityUI.Intensity.LOW)
 		song_selected.emit(ovani_song)

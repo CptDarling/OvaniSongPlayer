@@ -41,7 +41,7 @@ func _on_ui_song_selected(ovani_song: OvaniSong) -> void:
 
 
 func _on_ui_intensity_changed(value: float) -> void:
-	print("song intensity: %s" % [value])
+	prints("song intensity:", value)
 	if ovani_player:
 		if ovani_player.QueuedSongs.size() > 0:
 			ovani_player.FadeIntensity(value, FADE_SECONDS)
