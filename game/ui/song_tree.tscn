@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://chbne0ave634y"]
+
+[ext_resource type="Script" path="res://game/ui/song_tree.gd" id="1_btirs"]
+
+[node name="Tree" type="Tree"]
+offset_right = 517.0
+offset_bottom = 454.0
+allow_search = false
+hide_root = true
+select_mode = 1
+script = ExtResource("1_btirs")
+
+[connection signal="item_selected" from="." to="." method="_on_item_selected"]

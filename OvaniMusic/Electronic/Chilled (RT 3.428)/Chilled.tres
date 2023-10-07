@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://bofj11dn7f6em"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_4l3xt"]
+[ext_resource type="AudioStream" uid="uid://bucs8s2wnmmpy" path="res://OvaniMusic/Electronic/Chilled (RT 3.428)/Electronic Chilled Intensity 1.wav" id="1_vf4ne"]
+[ext_resource type="AudioStream" uid="uid://dk4ffh1bfhkhq" path="res://OvaniMusic/Electronic/Chilled (RT 3.428)/Electronic Chilled Intensity 2.wav" id="2_wy1ld"]
+[ext_resource type="AudioStream" uid="uid://difd2dan6k1im" path="res://OvaniMusic/Electronic/Chilled (RT 3.428)/Electronic Chilled main.wav" id="3_so6js"]
+[ext_resource type="AudioStream" uid="uid://63uogpfkx202" path="res://OvaniMusic/Electronic/Chilled (RT 3.428)/Electroni Chilled cut 30.wav" id="4_k32s6"]
+[ext_resource type="AudioStream" uid="uid://0dgqi3xrqu6l" path="res://OvaniMusic/Electronic/Chilled (RT 3.428)/Electronic Chilled cut 60.wav" id="5_aqjtc"]
+
+[resource]
+script = ExtResource("1_4l3xt")
+Intensity1 = ExtResource("1_vf4ne")
+Intensity2 = ExtResource("2_wy1ld")
+Intensity3 = ExtResource("3_so6js")
+Loop30 = ExtResource("4_k32s6")
+Loop60 = ExtResource("5_aqjtc")
+ReverbTail = 3.428
+SongMode = 0

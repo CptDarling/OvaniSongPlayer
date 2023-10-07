@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://bawp4r5k8hvrt"]
+
+[ext_resource type="AudioStream" uid="uid://d2obdfa5g258w" path="res://OvaniMusic/Electronic/Victory (RT 3.75)/Electronic Victory Intensity 1.wav" id="1_3dkww"]
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_jsc4s"]
+[ext_resource type="AudioStream" uid="uid://brw4eamyoc1gb" path="res://OvaniMusic/Electronic/Victory (RT 3.75)/Electronic Victory Intensity 2.wav" id="2_61b3g"]
+[ext_resource type="AudioStream" uid="uid://dihyg1yk12g0s" path="res://OvaniMusic/Electronic/Victory (RT 3.75)/Electronic Victory main.wav" id="3_rnntx"]
+[ext_resource type="AudioStream" uid="uid://3iaperqmdr1" path="res://OvaniMusic/Electronic/Victory (RT 3.75)/Electronic Victory cut 30.wav" id="4_imyrg"]
+[ext_resource type="AudioStream" uid="uid://c1e2bjga5uoe1" path="res://OvaniMusic/Electronic/Victory (RT 3.75)/Electronic Victory cut 60.wav" id="5_lx8yx"]
+
+[resource]
+script = ExtResource("1_jsc4s")
+Intensity1 = ExtResource("1_3dkww")
+Intensity2 = ExtResource("2_61b3g")
+Intensity3 = ExtResource("3_rnntx")
+Loop30 = ExtResource("4_imyrg")
+Loop60 = ExtResource("5_lx8yx")
+ReverbTail = 3.75
+SongMode = 2

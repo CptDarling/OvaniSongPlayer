@@ -1,0 +1,87 @@
+[gd_scene load_steps=4 format=3 uid="uid://ban51unfcbq73"]
+
+[ext_resource type="Script" path="res://game/ui/intensity_ui.gd" id="1_81c2e"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2t1ry"]
+bg_color = Color(0.227451, 0.227451, 0.227451, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.156863, 0.156863, 0.156863, 1)
+border_blend = true
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_yyydu"]
+
+[node name="IntensityUI" type="PanelContainer"]
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_2t1ry")
+script = ExtResource("1_81c2e")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Intensity
+"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Low"
+
+[node name="LowIntensity" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+focus_mode = 0
+button_group = SubResource("ButtonGroup_yyydu")
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Medium"
+
+[node name="MediumIntensity" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+focus_mode = 0
+button_group = SubResource("ButtonGroup_yyydu")
+
+[node name="Label3" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "High"
+
+[node name="HighIntensity" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+focus_mode = 0
+button_group = SubResource("ButtonGroup_yyydu")
+
+[connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer/LowIntensity" to="." method="_on_low_intensity_toggled"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer/MediumIntensity" to="." method="_on_medium_intensity_toggled"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer/HighIntensity" to="." method="_on_high_intensity_toggled"]

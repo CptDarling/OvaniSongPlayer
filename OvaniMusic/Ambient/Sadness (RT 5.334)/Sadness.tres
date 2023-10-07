@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://s102h4xycadt"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_biemw"]
+[ext_resource type="AudioStream" uid="uid://dra4u46rbyhrp" path="res://OvaniMusic/Ambient/Sadness (RT 5.334)/Ambient Sadness Intensity 1.wav" id="1_oi6j7"]
+[ext_resource type="AudioStream" uid="uid://c3suii5pdgyep" path="res://OvaniMusic/Ambient/Sadness (RT 5.334)/Ambient Sadness Intensity 2.wav" id="2_3q2el"]
+[ext_resource type="AudioStream" uid="uid://c6unvuhkuuwtt" path="res://OvaniMusic/Ambient/Sadness (RT 5.334)/Ambient Sadness Main.wav" id="3_1pm1q"]
+[ext_resource type="AudioStream" uid="uid://cbe2fmaiauly0" path="res://OvaniMusic/Ambient/Sadness (RT 5.334)/Ambient Sadness cut 30.wav" id="4_7dknj"]
+[ext_resource type="AudioStream" uid="uid://gy22vaafdwqc" path="res://OvaniMusic/Ambient/Sadness (RT 5.334)/Ambient Sadness cut 60.wav" id="5_t22b0"]
+
+[resource]
+script = ExtResource("1_biemw")
+Intensity1 = ExtResource("1_oi6j7")
+Intensity2 = ExtResource("2_3q2el")
+Intensity3 = ExtResource("3_1pm1q")
+Loop30 = ExtResource("4_7dknj")
+Loop60 = ExtResource("5_t22b0")
+ReverbTail = 5.334
+SongMode = 0

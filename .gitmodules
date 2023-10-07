@@ -1,0 +1,3 @@
+[submodule "OvaniPlugin"]
+	path = OvaniPlugin
+	url = https://github.com/CptDarling/OvaniPlugin.git

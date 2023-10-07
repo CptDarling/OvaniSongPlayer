@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://7y5xmtobeqna"]
+
+[ext_resource type="AudioStream" uid="uid://dgr58xwg7inop" path="res://OvaniMusic/Ambient/Exploration (RT 6.0)/Ambient Exploration Intensity 1.wav" id="1_ag0ws"]
+[ext_resource type="AudioStream" uid="uid://mng0766mpab7" path="res://OvaniMusic/Ambient/Exploration (RT 6.0)/Ambient Exploration Intensity 2.wav" id="2_jmppm"]
+[ext_resource type="AudioStream" uid="uid://dkmtjte2mava2" path="res://OvaniMusic/Ambient/Exploration (RT 6.0)/Ambient Exploration Main.wav" id="3_w83vs"]
+[ext_resource type="AudioStream" uid="uid://b1fd7w0v7py62" path="res://OvaniMusic/Ambient/Exploration (RT 6.0)/Ambient Exploration cut 30.wav" id="4_d88ub"]
+[ext_resource type="AudioStream" uid="uid://bf621gxuq8w7f" path="res://OvaniMusic/Ambient/Exploration (RT 6.0)/Ambient Exploration cut 60.wav" id="5_bbni0"]
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="6_k7pbb"]
+
+[resource]
+script = ExtResource("6_k7pbb")
+Intensity1 = ExtResource("1_ag0ws")
+Intensity2 = ExtResource("2_jmppm")
+Intensity3 = ExtResource("3_w83vs")
+Loop30 = ExtResource("4_d88ub")
+Loop60 = ExtResource("5_bbni0")
+ReverbTail = 6.0
+SongMode = 0
