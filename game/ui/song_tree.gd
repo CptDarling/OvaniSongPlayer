@@ -41,6 +41,10 @@ func map_tres(arr: PackedStringArray) -> PackedStringArray:
 	for filename in arr:
 		if filename.ends_with(".tres"):
 			resp.push_back(filename)
+		elif filename.ends_with(".tres.remap"):
+			filename = ".".join(filename.split(".").slice(0, -1))
+			resp.push_back(filename)
+		prints("filename:", filename)
 	return resp
 
 
