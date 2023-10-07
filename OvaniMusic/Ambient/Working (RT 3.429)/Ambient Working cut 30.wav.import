@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwu8fp041klpc"
+path="res://.godot/imported/Ambient Working cut 30.wav-f5a81f8a9d0fcd7081d18ab1dae7c7bf.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Working (RT 3.429)/Ambient Working cut 30.wav"
+dest_files=["res://.godot/imported/Ambient Working cut 30.wav-f5a81f8a9d0fcd7081d18ab1dae7c7bf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

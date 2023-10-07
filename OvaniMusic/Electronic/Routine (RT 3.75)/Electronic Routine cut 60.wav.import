@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bu2iml31t542a"
+path="res://.godot/imported/Electronic Routine cut 60.wav-052ba77ebe1699a2c1c893ea7e869a81.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Routine (RT 3.75)/Electronic Routine cut 60.wav"
+dest_files=["res://.godot/imported/Electronic Routine cut 60.wav-052ba77ebe1699a2c1c893ea7e869a81.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

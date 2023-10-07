@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ckrdili0s0w8n"
+path="res://.godot/imported/Ambient Joy cut 60.wav-d3ffe0f8a21275fbff1c3c2a7f8c7421.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Joy (RT 4.5)/Ambient Joy cut 60.wav"
+dest_files=["res://.godot/imported/Ambient Joy cut 60.wav-d3ffe0f8a21275fbff1c3c2a7f8c7421.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

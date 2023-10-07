@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctymo5a5led33"
+path="res://.godot/imported/Ambient Recollect Intensity 2.wav-1760fd37007f46029d925389b582bdb9.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Recollect (RT 5.142)/Ambient Recollect Intensity 2.wav"
+dest_files=["res://.godot/imported/Ambient Recollect Intensity 2.wav-1760fd37007f46029d925389b582bdb9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

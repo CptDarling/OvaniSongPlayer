@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://decesrn1ve4n6"
+path="res://.godot/imported/Ambient Concern cut 30.wav-4a8c929684b16190ab565c6aaec48c88.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Concern (RT 6.0)/Ambient Concern cut 30.wav"
+dest_files=["res://.godot/imported/Ambient Concern cut 30.wav-4a8c929684b16190ab565c6aaec48c88.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://buxvw82thjeu3"
+path="res://.godot/imported/Ambient Wonderful cut 30.wav-5dee263a796cdf33f6708bfb5f74125d.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Wonderful (RT 5.334)/Ambient Wonderful cut 30.wav"
+dest_files=["res://.godot/imported/Ambient Wonderful cut 30.wav-5dee263a796cdf33f6708bfb5f74125d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

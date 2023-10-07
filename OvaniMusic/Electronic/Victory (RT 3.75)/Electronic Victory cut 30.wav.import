@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3iaperqmdr1"
+path="res://.godot/imported/Electronic Victory cut 30.wav-53f6a6a37dad4952e74f72d202ec43fc.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Victory (RT 3.75)/Electronic Victory cut 30.wav"
+dest_files=["res://.godot/imported/Electronic Victory cut 30.wav-53f6a6a37dad4952e74f72d202ec43fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

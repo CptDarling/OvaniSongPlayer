@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpnnoehbom66j"
+path="res://.godot/imported/Ambient Recollect cut 30.wav-2c728aeb408c69550b296cf4ab335fc6.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Recollect (RT 5.142)/Ambient Recollect cut 30.wav"
+dest_files=["res://.godot/imported/Ambient Recollect cut 30.wav-2c728aeb408c69550b296cf4ab335fc6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

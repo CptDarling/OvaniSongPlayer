@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwcutddl67geq"
+path="res://.godot/imported/Electronic Hollow Intensity 1.wav-0e510398af2a240b830794a2403fb684.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Hollow (RT 5)/Electronic Hollow Intensity 1.wav"
+dest_files=["res://.godot/imported/Electronic Hollow Intensity 1.wav-0e510398af2a240b830794a2403fb684.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

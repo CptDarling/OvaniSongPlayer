@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dh0eb34e0nq8s"
+path="res://.godot/imported/Electronic Hollow cut 30.wav-a501eb88bf798df6dad7bf5168c98036.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Hollow (RT 5)/Electronic Hollow cut 30.wav"
+dest_files=["res://.godot/imported/Electronic Hollow cut 30.wav-a501eb88bf798df6dad7bf5168c98036.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

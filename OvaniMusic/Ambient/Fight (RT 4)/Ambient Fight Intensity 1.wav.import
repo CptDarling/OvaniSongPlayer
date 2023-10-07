@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://iendrxfyi5lo"
+path="res://.godot/imported/Ambient Fight Intensity 1.wav-7baec5cc981dac3e30604ebfb9e7764a.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Fight (RT 4)/Ambient Fight Intensity 1.wav"
+dest_files=["res://.godot/imported/Ambient Fight Intensity 1.wav-7baec5cc981dac3e30604ebfb9e7764a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

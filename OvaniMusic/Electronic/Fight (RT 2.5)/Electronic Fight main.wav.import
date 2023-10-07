@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dsnhmaom8sjpp"
+path="res://.godot/imported/Electronic Fight main.wav-70d2911c59fe3d61de28f4476864d736.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Fight (RT 2.5)/Electronic Fight main.wav"
+dest_files=["res://.godot/imported/Electronic Fight main.wav-70d2911c59fe3d61de28f4476864d736.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

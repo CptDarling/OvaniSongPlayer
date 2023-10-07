@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdirwnekj0uhj"
+path="res://.godot/imported/Electronic Routine Intensity 2.wav-e45c1b2e2f2009fbed53e9c4f12d93b2.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Routine (RT 3.75)/Electronic Routine Intensity 2.wav"
+dest_files=["res://.godot/imported/Electronic Routine Intensity 2.wav-e45c1b2e2f2009fbed53e9c4f12d93b2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmfygw565q8h"
+path="res://.godot/imported/Electronic Hectic cut 30.wav-480dc23764a48f6a5b7a864cb727946c.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Hectic (RT 3.529)/Electronic Hectic cut 30.wav"
+dest_files=["res://.godot/imported/Electronic Hectic cut 30.wav-480dc23764a48f6a5b7a864cb727946c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

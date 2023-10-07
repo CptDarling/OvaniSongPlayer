@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://buxt20wwp5nw4"
+path="res://.godot/imported/Electronic Grudge Intensity 1.wav-1710bee2261ad07b56aac2770055ccbf.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Grudge (RT 3.75)/Electronic Grudge Intensity 1.wav"
+dest_files=["res://.godot/imported/Electronic Grudge Intensity 1.wav-1710bee2261ad07b56aac2770055ccbf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

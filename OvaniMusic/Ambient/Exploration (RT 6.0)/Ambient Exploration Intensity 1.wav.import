@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgr58xwg7inop"
+path="res://.godot/imported/Ambient Exploration Intensity 1.wav-012d5bdd1c2542ed530064c4fceaabc2.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Exploration (RT 6.0)/Ambient Exploration Intensity 1.wav"
+dest_files=["res://.godot/imported/Ambient Exploration Intensity 1.wav-012d5bdd1c2542ed530064c4fceaabc2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

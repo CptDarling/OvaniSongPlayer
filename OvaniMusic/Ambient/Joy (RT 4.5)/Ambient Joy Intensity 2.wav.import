@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhexel863uu35"
+path="res://.godot/imported/Ambient Joy Intensity 2.wav-a21a252a0bfd3d84a376a2ee016b3f58.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Joy (RT 4.5)/Ambient Joy Intensity 2.wav"
+dest_files=["res://.godot/imported/Ambient Joy Intensity 2.wav-a21a252a0bfd3d84a376a2ee016b3f58.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gy22vaafdwqc"
+path="res://.godot/imported/Ambient Sadness cut 60.wav-692531066ee6aac898f079f335010b56.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Sadness (RT 5.334)/Ambient Sadness cut 60.wav"
+dest_files=["res://.godot/imported/Ambient Sadness cut 60.wav-692531066ee6aac898f079f335010b56.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

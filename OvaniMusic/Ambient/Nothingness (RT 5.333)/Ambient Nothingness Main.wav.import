@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy5n37mjg5aup"
+path="res://.godot/imported/Ambient Nothingness Main.wav-34baab200be36225b13d2bf90d909ec9.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Ambient/Nothingness (RT 5.333)/Ambient Nothingness Main.wav"
+dest_files=["res://.godot/imported/Ambient Nothingness Main.wav-34baab200be36225b13d2bf90d909ec9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

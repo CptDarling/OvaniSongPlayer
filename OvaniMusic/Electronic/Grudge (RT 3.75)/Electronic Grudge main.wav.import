@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7xjqs6mq1gqr"
+path="res://.godot/imported/Electronic Grudge main.wav-39a1a805f30e7d23b18c9cf60c201fa9.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Grudge (RT 3.75)/Electronic Grudge main.wav"
+dest_files=["res://.godot/imported/Electronic Grudge main.wav-39a1a805f30e7d23b18c9cf60c201fa9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

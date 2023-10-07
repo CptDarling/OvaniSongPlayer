@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0dgqi3xrqu6l"
+path="res://.godot/imported/Electronic Chilled cut 60.wav-6bb2eaa3f75594d852ab55adc29b6b7e.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Chilled (RT 3.428)/Electronic Chilled cut 60.wav"
+dest_files=["res://.godot/imported/Electronic Chilled cut 60.wav-6bb2eaa3f75594d852ab55adc29b6b7e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

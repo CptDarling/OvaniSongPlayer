@@ -18,7 +18,7 @@ mono_crash.*.json
 .tmp
 */*.tmp
 OvaniMusic/*/*/*.wav
-OvaniMusic/*/*/*.import
+OvaniMusic/*/*/*/*.wav
 OvaniMusic/*/*/Icon_
 OvaniMusic/*/*/.DS_Store
 OvaniMusic/*/.DS_Store

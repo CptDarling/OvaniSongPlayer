@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sepjnbpnmf18"
+path="res://.godot/imported/Electronic Hectic Intensity 2.wav-caef97e97efb2321487e2baad6cc8df5.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Hectic (RT 3.529)/Electronic Hectic Intensity 2.wav"
+dest_files=["res://.godot/imported/Electronic Hectic Intensity 2.wav-caef97e97efb2321487e2baad6cc8df5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

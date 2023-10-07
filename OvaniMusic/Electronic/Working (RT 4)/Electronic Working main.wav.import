@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0jqsakminskj"
+path="res://.godot/imported/Electronic Working main.wav-05434f0ed2fc2b65d6e3e42864000154.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Electronic/Working (RT 4)/Electronic Working main.wav"
+dest_files=["res://.godot/imported/Electronic Working main.wav-05434f0ed2fc2b65d6e3e42864000154.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
