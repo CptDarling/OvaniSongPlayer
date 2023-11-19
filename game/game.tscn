@@ -1,17 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://dwpp8vsmsfx7q"]
+[gd_scene load_steps=3 format=3 uid="uid://dwpp8vsmsfx7q"]
 
 [ext_resource type="Script" path="res://game/game.gd" id="1_c61b0"]
-[ext_resource type="Script" path="res://OvaniPlugin/OvaniPlayer.gd" id="1_fxwcw"]
 [ext_resource type="PackedScene" uid="uid://dbh53qagvuh3b" path="res://game/ui/ui.tscn" id="4_fj0pf"]
 
 [node name="Game" type="Node"]
 script = ExtResource("1_c61b0")
 
-[node name="OvaniPlayer" type="Node" parent="."]
-unique_name_in_owner = true
-script = ExtResource("1_fxwcw")
-
 [node name="UI" parent="." instance=ExtResource("4_fj0pf")]
 
 [connection signal="intensity_changed" from="UI" to="." method="_on_ui_intensity_changed"]
+[connection signal="play_mode_changed" from="UI" to="." method="_on_ui_play_mode_changed"]
 [connection signal="song_selected" from="UI" to="." method="_on_ui_song_selected"]

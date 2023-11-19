@@ -1,0 +1,100 @@
+[gd_scene load_steps=4 format=3 uid="uid://dc0jm6o46uxs6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2t1ry"]
+bg_color = Color(0.227451, 0.227451, 0.227451, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.156863, 0.156863, 0.156863, 1)
+border_blend = true
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="GDScript" id="GDScript_i0efo"]
+script/source = "class_name SampleUI extends PanelContainer
+
+## Emitted for 30 and 60 second sample options.
+signal loop_sample_changed(loop_sample: LoopSample)
+
+## Loop sample options
+enum LoopSample {
+	THIRTY,
+	SIXTY,
+	INTENSITY,
+}
+
+var _loop_sample: LoopSample:
+	set(value):
+		if value != _loop_sample:
+			_loop_sample = value
+			loop_sample_changed.emit(_loop_sample)
+
+
+func _on_button_30_toggled(button_pressed: bool) -> void:
+	_loop_sample = LoopSample.THIRTY
+
+
+func _on_button_60_toggled(button_pressed: bool) -> void:
+	_loop_sample = LoopSample.SIXTY
+
+
+func _on_button_intensity_toggled(button_pressed: bool) -> void:
+	_loop_sample = LoopSample.INTENSITY
+"
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_t08r3"]
+
+[node name="SampleUI" type="PanelContainer"]
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_2t1ry")
+script = SubResource("GDScript_i0efo")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Loop Sample"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button30" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+button_group = SubResource("ButtonGroup_t08r3")
+text = "30 Second Loop"
+flat = true
+
+[node name="Button60" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+button_group = SubResource("ButtonGroup_t08r3")
+text = "60 Second Loop"
+flat = true
+
+[node name="ButtonIntensity" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+button_group = SubResource("ButtonGroup_t08r3")
+text = "Intensity"
+flat = true
+
+[connection signal="toggled" from="MarginContainer/VBoxContainer/VBoxContainer/Button30" to="." method="_on_button_30_toggled"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/VBoxContainer/Button60" to="." method="_on_button_60_toggled"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/VBoxContainer/ButtonIntensity" to="." method="_on_button_intensity_toggled"]

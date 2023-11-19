@@ -68,9 +68,14 @@ theme_override_constants/margin_top = 8
 theme_override_constants/margin_right = 8
 theme_override_constants/margin_bottom = 8
 
-[node name="IntensityUI" parent="MarginContainer/HBoxContainer/Controls/MarginContainer" instance=ExtResource("4_2k06x")]
-unique_name_in_owner = true
+[node name="HFlowContainer" type="HFlowContainer" parent="MarginContainer/HBoxContainer/Controls/MarginContainer"]
 layout_mode = 2
 
-[connection signal="song_selected" from="MarginContainer/HBoxContainer/SongSelection/MarginContainer/Tree" to="." method="_on_tree_song_selected"]
-[connection signal="intensity_changed" from="MarginContainer/HBoxContainer/Controls/MarginContainer/IntensityUI" to="." method="_on_intensity_ui_intensity_changed"]
+[node name="IntensityUI" parent="MarginContainer/HBoxContainer/Controls/MarginContainer/HFlowContainer" instance=ExtResource("4_2k06x")]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 1
+
+[connection signal="play_song" from="MarginContainer/HBoxContainer/SongSelection/MarginContainer/Tree" to="." method="_on_tree_play_song"]
+[connection signal="intensity_changed" from="MarginContainer/HBoxContainer/Controls/MarginContainer/HFlowContainer/IntensityUI" to="." method="_on_intensity_ui_intensity_changed"]
+[connection signal="play_mode_changed" from="MarginContainer/HBoxContainer/Controls/MarginContainer/HFlowContainer/IntensityUI" to="." method="_on_intensity_ui_play_mode_changed"]

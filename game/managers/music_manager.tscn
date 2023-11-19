@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://crc64np6ngnwk"]
+
+[ext_resource type="Script" path="res://game/managers/music_manager.gd" id="1_joave"]
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniPlayer.gd" id="2_hisbe"]
+
+[node name="music_manager" type="Node"]
+script = ExtResource("1_joave")
+
+[node name="OvaniPlayer" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("2_hisbe")

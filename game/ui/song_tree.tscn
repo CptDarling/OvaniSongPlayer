@@ -1,10 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://chbne0ave634y"]
+[gd_scene load_steps=4 format=3 uid="uid://chbne0ave634y"]
 
 [ext_resource type="Script" path="res://game/ui/song_tree.gd" id="1_btirs"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1hwh3"]
+load_path = "res://.godot/imported/30.png-515051e7bdda330c6c66862884b4c1d5.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rmnpx"]
+texture = SubResource("CompressedTexture2D_1hwh3")
 
 [node name="Tree" type="Tree"]
 offset_right = 517.0
 offset_bottom = 454.0
+theme_override_styles/title_button_normal = SubResource("StyleBoxTexture_rmnpx")
+columns = 3
+allow_reselect = true
 allow_search = false
 hide_root = true
 select_mode = 1

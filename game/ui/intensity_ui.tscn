@@ -1,6 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://ban51unfcbq73"]
 
 [ext_resource type="Script" path="res://game/ui/intensity_ui.gd" id="1_81c2e"]
+[ext_resource type="ButtonGroup" uid="uid://ceefd5gtde7xa" path="res://game/ui/button_group_a.tres" id="2_2lvxb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2t1ry"]
 bg_color = Color(0.227451, 0.227451, 0.227451, 1)
@@ -14,8 +15,6 @@ corner_radius_top_left = 16
 corner_radius_top_right = 16
 corner_radius_bottom_right = 16
 corner_radius_bottom_left = 16
-
-[sub_resource type="ButtonGroup" id="ButtonGroup_yyydu"]
 
 [node name="IntensityUI" type="PanelContainer"]
 size_flags_horizontal = 0
@@ -35,7 +34,7 @@ layout_mode = 2
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "Intensity
+text = "Play Mode
 "
 horizontal_alignment = 1
 
@@ -47,41 +46,74 @@ layout_mode = 2
 columns = 2
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(136, 0)
 layout_mode = 2
-text = "Low"
+text = "Low Intensity"
 
 [node name="LowIntensity" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer"]
 unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 0
+size_flags_horizontal = 8
 focus_mode = 0
-button_group = SubResource("ButtonGroup_yyydu")
+button_group = ExtResource("2_2lvxb")
 
 [node name="Label2" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(136, 0)
 layout_mode = 2
-text = "Medium"
+text = "Medium Intensity"
 
 [node name="MediumIntensity" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer"]
 unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 0
+size_flags_horizontal = 8
 focus_mode = 0
-button_group = SubResource("ButtonGroup_yyydu")
+button_group = ExtResource("2_2lvxb")
 
 [node name="Label3" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(136, 0)
 layout_mode = 2
-text = "High"
+text = "High Intensity"
 
 [node name="HighIntensity" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer"]
 unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 0
+size_flags_horizontal = 8
 focus_mode = 0
-button_group = SubResource("ButtonGroup_yyydu")
+button_group = ExtResource("2_2lvxb")
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="GridContainer2" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="Label4" type="Label" parent="MarginContainer/VBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(136, 0)
+layout_mode = 2
+text = "30 Second Loop"
+
+[node name="ThirtySeconds" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 8
+focus_mode = 0
+button_group = ExtResource("2_2lvxb")
+
+[node name="Label5" type="Label" parent="MarginContainer/VBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(136, 0)
+layout_mode = 2
+text = "60 Second Loop"
+
+[node name="SixtySeconds" type="CheckButton" parent="MarginContainer/VBoxContainer/GridContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 8
+focus_mode = 0
+button_group = ExtResource("2_2lvxb")
 
 [connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer/LowIntensity" to="." method="_on_low_intensity_toggled"]
 [connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer/MediumIntensity" to="." method="_on_medium_intensity_toggled"]
 [connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer/HighIntensity" to="." method="_on_high_intensity_toggled"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer2/ThirtySeconds" to="." method="_on_thirty_seconds_toggled"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/GridContainer2/SixtySeconds" to="." method="_on_sixty_seconds_toggled"]
