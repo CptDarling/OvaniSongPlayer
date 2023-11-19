@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://dt5lie3ey6xmu"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_512fm"]
+[ext_resource type="AudioStream" uid="uid://bujuw7pbxgadm" path="res://OvaniMusic/Ambient/Wonderlust (RT 2.4)/Ambient Wonderlust Intensity 1.wav" id="1_und22"]
+[ext_resource type="AudioStream" uid="uid://hfusle18gkk4" path="res://OvaniMusic/Ambient/Wonderlust (RT 2.4)/Ambient Wonderlust Intensity 2.wav" id="2_8vkml"]
+[ext_resource type="AudioStream" uid="uid://dgndxkeyp11ki" path="res://OvaniMusic/Ambient/Wonderlust (RT 2.4)/Ambient Wonderlust Main.wav" id="3_n03ke"]
+[ext_resource type="AudioStream" uid="uid://bgy70x4joa327" path="res://OvaniMusic/Ambient/Wonderlust (RT 2.4)/Ambient Wonderlust cut 30.wav" id="4_4dcb2"]
+[ext_resource type="AudioStream" uid="uid://b60hljfofqjsg" path="res://OvaniMusic/Ambient/Wonderlust (RT 2.4)/Ambient Wonderlust cut 60.wav" id="5_ck6o3"]
+
+[resource]
+script = ExtResource("1_512fm")
+Intensity1 = ExtResource("1_und22")
+Intensity2 = ExtResource("2_8vkml")
+Intensity3 = ExtResource("3_n03ke")
+Loop30 = ExtResource("4_4dcb2")
+Loop60 = ExtResource("5_ck6o3")
+ReverbTail = 0.0
+SongMode = 0

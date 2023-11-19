@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cw04ohdqp5umu"
+path="res://.godot/imported/Uh Oh.wav-d3e53717d8ad16fd35f102cbc50357be.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Signal/Uh Oh.wav"
+dest_files=["res://.godot/imported/Uh Oh.wav-d3e53717d8ad16fd35f102cbc50357be.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

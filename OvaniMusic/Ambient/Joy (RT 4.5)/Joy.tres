@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://c5333clhyrh6l"]
+
+[ext_resource type="AudioStream" uid="uid://bl1yu5guonuuk" path="res://OvaniMusic/Ambient/Joy (RT 4.5)/Ambient Joy Intensity 1.wav" id="1_68aoj"]
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_iwr3p"]
+[ext_resource type="AudioStream" uid="uid://bhexel863uu35" path="res://OvaniMusic/Ambient/Joy (RT 4.5)/Ambient Joy Intensity 2.wav" id="2_evaut"]
+[ext_resource type="AudioStream" uid="uid://wrcqnu250w76" path="res://OvaniMusic/Ambient/Joy (RT 4.5)/Ambient Joy Main.wav" id="3_qdj2o"]
+[ext_resource type="AudioStream" uid="uid://diwpcuw3y8k3e" path="res://OvaniMusic/Ambient/Joy (RT 4.5)/Ambient Joy cut 30.wav" id="4_jmij3"]
+[ext_resource type="AudioStream" uid="uid://ckrdili0s0w8n" path="res://OvaniMusic/Ambient/Joy (RT 4.5)/Ambient Joy cut 60.wav" id="5_vc5by"]
+
+[resource]
+script = ExtResource("1_iwr3p")
+Intensity1 = ExtResource("1_68aoj")
+Intensity2 = ExtResource("2_evaut")
+Intensity3 = ExtResource("3_qdj2o")
+Loop30 = ExtResource("4_jmij3")
+Loop60 = ExtResource("5_vc5by")
+ReverbTail = 4.5
+SongMode = 0

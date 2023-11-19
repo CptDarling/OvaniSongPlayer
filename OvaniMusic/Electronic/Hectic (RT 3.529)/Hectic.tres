@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://dd3ivfvagea68"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_1yjis"]
+[ext_resource type="AudioStream" uid="uid://cikxdr4ctkjys" path="res://OvaniMusic/Electronic/Hectic (RT 3.529)/Electronic Hectic Intensity 1.wav" id="1_d7jky"]
+[ext_resource type="AudioStream" uid="uid://sepjnbpnmf18" path="res://OvaniMusic/Electronic/Hectic (RT 3.529)/Electronic Hectic Intensity 2.wav" id="2_xyeu3"]
+[ext_resource type="AudioStream" uid="uid://15jrdnmm5ju7" path="res://OvaniMusic/Electronic/Hectic (RT 3.529)/Electronic Hectic main.wav" id="3_m1le8"]
+[ext_resource type="AudioStream" uid="uid://cmfygw565q8h" path="res://OvaniMusic/Electronic/Hectic (RT 3.529)/Electronic Hectic cut 30.wav" id="4_ouurd"]
+[ext_resource type="AudioStream" uid="uid://b1yl5riv5w2bi" path="res://OvaniMusic/Electronic/Hectic (RT 3.529)/Electronic Hectic cut 60.wav" id="5_yderx"]
+
+[resource]
+script = ExtResource("1_1yjis")
+Intensity1 = ExtResource("1_d7jky")
+Intensity2 = ExtResource("2_xyeu3")
+Intensity3 = ExtResource("3_m1le8")
+Loop30 = ExtResource("4_ouurd")
+Loop60 = ExtResource("5_yderx")
+ReverbTail = 0.0
+SongMode = 0

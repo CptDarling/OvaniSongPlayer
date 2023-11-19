@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bj4rdgaevacq3"
+path="res://.godot/imported/Signal Retro 005.wav-8620e21cc9ad431ab1fe2368852578e4.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Signal/Signal Retro 005.wav"
+dest_files=["res://.godot/imported/Signal Retro 005.wav-8620e21cc9ad431ab1fe2368852578e4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

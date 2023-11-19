@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wwoykyjebsmv"
+path="res://.godot/imported/Update Ensemble 001.wav-e9ea14bd8802dc5536454fa3f70dab44.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Update/Update Ensemble 001.wav"
+dest_files=["res://.godot/imported/Update Ensemble 001.wav-e9ea14bd8802dc5536454fa3f70dab44.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

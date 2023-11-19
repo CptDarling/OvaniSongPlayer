@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://dcswm58flkuod"]
+
+[ext_resource type="AudioStream" uid="uid://cd18bsxlvjuid" path="res://OvaniMusic/Electronic/Cool (RT 3.75)/Electronic Cool Intensity 1.wav" id="1_v2mby"]
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_yuaa2"]
+[ext_resource type="AudioStream" uid="uid://bqqdpjwdnvu6j" path="res://OvaniMusic/Electronic/Cool (RT 3.75)/Electronic Cool Intensity 2.wav" id="2_p5csq"]
+[ext_resource type="AudioStream" uid="uid://ln8uttswlrfo" path="res://OvaniMusic/Electronic/Cool (RT 3.75)/Electronic Cool main.wav" id="3_4mjp3"]
+[ext_resource type="AudioStream" uid="uid://dg0gsoa8kibno" path="res://OvaniMusic/Electronic/Cool (RT 3.75)/Electronic Cool cut 30.wav" id="4_8qt0q"]
+[ext_resource type="AudioStream" uid="uid://bep752jcwmabo" path="res://OvaniMusic/Electronic/Cool (RT 3.75)/Electronic Cool cut 60.wav" id="5_5me3e"]
+
+[resource]
+script = ExtResource("1_yuaa2")
+Intensity1 = ExtResource("1_v2mby")
+Intensity2 = ExtResource("2_p5csq")
+Intensity3 = ExtResource("3_4mjp3")
+Loop30 = ExtResource("4_8qt0q")
+Loop60 = ExtResource("5_5me3e")
+ReverbTail = 3.75
+SongMode = 0

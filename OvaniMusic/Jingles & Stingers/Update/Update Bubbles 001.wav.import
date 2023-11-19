@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqa7woirx81cv"
+path="res://.godot/imported/Update Bubbles 001.wav-82ad0224e4837e21ca8b81c5552db82f.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Update/Update Bubbles 001.wav"
+dest_files=["res://.godot/imported/Update Bubbles 001.wav-82ad0224e4837e21ca8b81c5552db82f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

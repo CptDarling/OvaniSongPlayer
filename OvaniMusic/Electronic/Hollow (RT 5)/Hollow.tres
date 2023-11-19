@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://b5tyvehljpw65"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_pq7um"]
+[ext_resource type="AudioStream" uid="uid://cwcutddl67geq" path="res://OvaniMusic/Electronic/Hollow (RT 5)/Electronic Hollow Intensity 1.wav" id="1_u7do8"]
+[ext_resource type="AudioStream" uid="uid://c6rix1x7g70g7" path="res://OvaniMusic/Electronic/Hollow (RT 5)/Electronic Hollow Intensity 2.wav" id="2_nblq3"]
+[ext_resource type="AudioStream" uid="uid://4wbhfk585yem" path="res://OvaniMusic/Electronic/Hollow (RT 5)/Electronic Hollow main.wav" id="3_1lesw"]
+[ext_resource type="AudioStream" uid="uid://dh0eb34e0nq8s" path="res://OvaniMusic/Electronic/Hollow (RT 5)/Electronic Hollow cut 30.wav" id="4_hdtm8"]
+[ext_resource type="AudioStream" uid="uid://ln06dgcgpads" path="res://OvaniMusic/Electronic/Hollow (RT 5)/Electronic Hollow cut 60.wav" id="5_txhyj"]
+
+[resource]
+script = ExtResource("1_pq7um")
+Intensity1 = ExtResource("1_u7do8")
+Intensity2 = ExtResource("2_nblq3")
+Intensity3 = ExtResource("3_1lesw")
+Loop30 = ExtResource("4_hdtm8")
+Loop60 = ExtResource("5_txhyj")
+ReverbTail = 0.0
+SongMode = 0

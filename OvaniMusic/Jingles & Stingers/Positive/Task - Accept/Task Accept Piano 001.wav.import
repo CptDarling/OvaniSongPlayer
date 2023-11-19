@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2pkg2hkr1h42"
+path="res://.godot/imported/Task Accept Piano 001.wav-143e85b77c18dad7e802f5dbe2c752d9.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Positive/Task - Accept/Task Accept Piano 001.wav"
+dest_files=["res://.godot/imported/Task Accept Piano 001.wav-143e85b77c18dad7e802f5dbe2c752d9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

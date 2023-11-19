@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0f7qi3o2hpoj"
+path="res://.godot/imported/Task Fail Piano 001.wav-5708ec3f2a31307198d402c81a036cc1.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Negative/Task - Fail/Task Fail Piano 001.wav"
+dest_files=["res://.godot/imported/Task Fail Piano 001.wav-5708ec3f2a31307198d402c81a036cc1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

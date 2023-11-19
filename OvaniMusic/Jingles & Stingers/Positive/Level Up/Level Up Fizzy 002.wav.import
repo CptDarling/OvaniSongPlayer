@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://iesodg7yt7fo"
+path="res://.godot/imported/Level Up Fizzy 002.wav-7a8d5775018fe30a77fd586246b0bd7f.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Positive/Level Up/Level Up Fizzy 002.wav"
+dest_files=["res://.godot/imported/Level Up Fizzy 002.wav-7a8d5775018fe30a77fd586246b0bd7f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

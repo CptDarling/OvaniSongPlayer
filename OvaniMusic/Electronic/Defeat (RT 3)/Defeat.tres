@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://dclssywrbux6t"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_ctt1g"]
+[ext_resource type="AudioStream" uid="uid://cnod5h2kb316y" path="res://OvaniMusic/Electronic/Defeat (RT 3)/Electronic Defeat Intensity 1.wav" id="1_q13cl"]
+[ext_resource type="AudioStream" uid="uid://cclh1ypmrhtuy" path="res://OvaniMusic/Electronic/Defeat (RT 3)/Electronic Defeat Intensity 2.wav" id="2_ftv6k"]
+[ext_resource type="AudioStream" uid="uid://kmu1p685co7s" path="res://OvaniMusic/Electronic/Defeat (RT 3)/Electronic Defeat main.wav" id="3_rvi7h"]
+[ext_resource type="AudioStream" uid="uid://ck647kk4iy3wo" path="res://OvaniMusic/Electronic/Defeat (RT 3)/Electronic Defeat cut 30.wav" id="4_pu7ex"]
+[ext_resource type="AudioStream" uid="uid://d0vi33wy6rx1k" path="res://OvaniMusic/Electronic/Defeat (RT 3)/Electronic Defeat cut 60.wav" id="5_637gv"]
+
+[resource]
+script = ExtResource("1_ctt1g")
+Intensity1 = ExtResource("1_q13cl")
+Intensity2 = ExtResource("2_ftv6k")
+Intensity3 = ExtResource("3_rvi7h")
+Loop30 = ExtResource("4_pu7ex")
+Loop60 = ExtResource("5_637gv")
+ReverbTail = 0.0
+SongMode = 0

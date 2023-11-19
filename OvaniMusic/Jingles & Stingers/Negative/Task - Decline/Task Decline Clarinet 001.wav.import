@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dis3esbj7q4ja"
+path="res://.godot/imported/Task Decline Clarinet 001.wav-d45a6a0abad159626d1a576421e18b51.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Negative/Task - Decline/Task Decline Clarinet 001.wav"
+dest_files=["res://.godot/imported/Task Decline Clarinet 001.wav-d45a6a0abad159626d1a576421e18b51.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

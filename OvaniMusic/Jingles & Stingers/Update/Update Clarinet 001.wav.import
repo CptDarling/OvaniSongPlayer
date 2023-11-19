@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bh6fp0me70qdf"
+path="res://.godot/imported/Update Clarinet 001.wav-7e611d91e608c0100acb6442b40cf27a.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Update/Update Clarinet 001.wav"
+dest_files=["res://.godot/imported/Update Clarinet 001.wav-7e611d91e608c0100acb6442b40cf27a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

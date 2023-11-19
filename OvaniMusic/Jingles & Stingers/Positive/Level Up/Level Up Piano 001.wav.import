@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://du1wa8xjp56va"
+path="res://.godot/imported/Level Up Piano 001.wav-37572d8ddffa71ba99a75e4d92307266.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Positive/Level Up/Level Up Piano 001.wav"
+dest_files=["res://.godot/imported/Level Up Piano 001.wav-37572d8ddffa71ba99a75e4d92307266.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

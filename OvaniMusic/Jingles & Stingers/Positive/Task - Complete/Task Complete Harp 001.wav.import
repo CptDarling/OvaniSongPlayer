@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0a1oba8xhfm2"
+path="res://.godot/imported/Task Complete Harp 001.wav-e0593e55d553b0b6afee73c3d8d2a4d0.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Positive/Task - Complete/Task Complete Harp 001.wav"
+dest_files=["res://.godot/imported/Task Complete Harp 001.wav-e0593e55d553b0b6afee73c3d8d2a4d0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

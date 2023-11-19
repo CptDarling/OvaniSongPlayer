@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://j7iw5dk5sq53"
+path="res://.godot/imported/Task Accept Plonk 001.wav-2edac6f99ab041958ed7f12cec35f534.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Positive/Task - Accept/Task Accept Plonk 001.wav"
+dest_files=["res://.godot/imported/Task Accept Plonk 001.wav-2edac6f99ab041958ed7f12cec35f534.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

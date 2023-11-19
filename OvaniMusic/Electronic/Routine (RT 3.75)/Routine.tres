@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://ddixnrt446juf"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_qb20o"]
+[ext_resource type="AudioStream" uid="uid://bqwfe12tc0lxx" path="res://OvaniMusic/Electronic/Routine (RT 3.75)/Electronic Routine Intensity 1.wav" id="1_xs6gi"]
+[ext_resource type="AudioStream" uid="uid://cdirwnekj0uhj" path="res://OvaniMusic/Electronic/Routine (RT 3.75)/Electronic Routine Intensity 2.wav" id="2_t6e0v"]
+[ext_resource type="AudioStream" uid="uid://ir2b1jkp61i2" path="res://OvaniMusic/Electronic/Routine (RT 3.75)/Electronic Routine main.wav" id="3_iiqu4"]
+[ext_resource type="AudioStream" uid="uid://b1ytkurxqjwpv" path="res://OvaniMusic/Electronic/Routine (RT 3.75)/Electronic Routine cut 30.wav" id="4_o7yex"]
+[ext_resource type="AudioStream" uid="uid://bu2iml31t542a" path="res://OvaniMusic/Electronic/Routine (RT 3.75)/Electronic Routine cut 60.wav" id="5_3gnga"]
+
+[resource]
+script = ExtResource("1_qb20o")
+Intensity1 = ExtResource("1_xs6gi")
+Intensity2 = ExtResource("2_t6e0v")
+Intensity3 = ExtResource("3_iiqu4")
+Loop30 = ExtResource("4_o7yex")
+Loop60 = ExtResource("5_3gnga")
+ReverbTail = 0.0
+SongMode = 0

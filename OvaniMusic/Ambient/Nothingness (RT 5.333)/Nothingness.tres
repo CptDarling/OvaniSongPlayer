@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://baqo2wiyp8naj"]
+
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_0awcy"]
+[ext_resource type="AudioStream" uid="uid://gjcte380m82x" path="res://OvaniMusic/Ambient/Nothingness (RT 5.333)/Ambient Nothingness Intensity 1.wav" id="1_8om3m"]
+[ext_resource type="AudioStream" uid="uid://bsd5bykxqtqpm" path="res://OvaniMusic/Ambient/Nothingness (RT 5.333)/Ambient Nothingness Intensity 2.wav" id="2_uk45e"]
+[ext_resource type="AudioStream" uid="uid://dy5n37mjg5aup" path="res://OvaniMusic/Ambient/Nothingness (RT 5.333)/Ambient Nothingness Main.wav" id="3_0wooy"]
+[ext_resource type="AudioStream" uid="uid://cyqvymnwrvj2r" path="res://OvaniMusic/Ambient/Nothingness (RT 5.333)/Ambient Nothingness cut 30.wav" id="4_sblh2"]
+[ext_resource type="AudioStream" uid="uid://ci0apsiswir3h" path="res://OvaniMusic/Ambient/Nothingness (RT 5.333)/Ambient Nothingness cut 60.wav" id="5_fycn1"]
+
+[resource]
+script = ExtResource("1_0awcy")
+Intensity1 = ExtResource("1_8om3m")
+Intensity2 = ExtResource("2_uk45e")
+Intensity3 = ExtResource("3_0wooy")
+Loop30 = ExtResource("4_sblh2")
+Loop60 = ExtResource("5_fycn1")
+ReverbTail = 0.0
+SongMode = 0

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://c73xa4yaomk1d"]
+
+[ext_resource type="AudioStream" uid="uid://buxt20wwp5nw4" path="res://OvaniMusic/Electronic/Grudge (RT 3.75)/Electronic Grudge Intensity 1.wav" id="1_es1jj"]
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_iu0e1"]
+[ext_resource type="AudioStream" uid="uid://b0o0jnhfww7rw" path="res://OvaniMusic/Electronic/Grudge (RT 3.75)/Electronic Grudge Intensity 2.wav" id="2_8c640"]
+[ext_resource type="AudioStream" uid="uid://c7xjqs6mq1gqr" path="res://OvaniMusic/Electronic/Grudge (RT 3.75)/Electronic Grudge main.wav" id="3_fnmg4"]
+[ext_resource type="AudioStream" uid="uid://dgor2gqivwwcb" path="res://OvaniMusic/Electronic/Grudge (RT 3.75)/Electronic Grudge cut 30.wav" id="4_ewa1n"]
+[ext_resource type="AudioStream" uid="uid://c6xoxq13nrrtl" path="res://OvaniMusic/Electronic/Grudge (RT 3.75)/Electronic Grudge cut 60.wav" id="5_qroxo"]
+
+[resource]
+script = ExtResource("1_iu0e1")
+Intensity1 = ExtResource("1_es1jj")
+Intensity2 = ExtResource("2_8c640")
+Intensity3 = ExtResource("3_fnmg4")
+Loop30 = ExtResource("4_ewa1n")
+Loop60 = ExtResource("5_qroxo")
+ReverbTail = 0.0
+SongMode = 0

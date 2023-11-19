@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="OvaniSong" load_steps=7 format=3 uid="uid://cpllkybmys8s3"]
+
+[ext_resource type="AudioStream" uid="uid://c7hf2mxsmp0kg" path="res://OvaniMusic/Electronic/Fight (RT 2.5)/Electronic Fight Intensity 1.wav" id="1_ieml0"]
+[ext_resource type="Script" path="res://OvaniPlugin/OvaniSong.gd" id="1_x228j"]
+[ext_resource type="AudioStream" uid="uid://dbl3x5oktybv2" path="res://OvaniMusic/Electronic/Fight (RT 2.5)/Electronic Fight Intensity 2.wav" id="2_pk2q5"]
+[ext_resource type="AudioStream" uid="uid://dsnhmaom8sjpp" path="res://OvaniMusic/Electronic/Fight (RT 2.5)/Electronic Fight main.wav" id="3_pd585"]
+[ext_resource type="AudioStream" uid="uid://cdeq6oafr7e8n" path="res://OvaniMusic/Electronic/Fight (RT 2.5)/Electronic Fight cut 30.wav" id="4_axrhq"]
+[ext_resource type="AudioStream" uid="uid://d1x6w41f0nvdk" path="res://OvaniMusic/Electronic/Fight (RT 2.5)/Electronic Fight cut 60.wav" id="5_tpt1y"]
+
+[resource]
+script = ExtResource("1_x228j")
+Intensity1 = ExtResource("1_ieml0")
+Intensity2 = ExtResource("2_pk2q5")
+Intensity3 = ExtResource("3_pd585")
+Loop30 = ExtResource("4_axrhq")
+Loop60 = ExtResource("5_tpt1y")
+ReverbTail = 0.0
+SongMode = 0

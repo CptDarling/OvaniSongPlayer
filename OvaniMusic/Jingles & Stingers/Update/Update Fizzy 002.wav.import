@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bubs1l6ynwudw"
+path="res://.godot/imported/Update Fizzy 002.wav-2eb0937391ce5e78ec229d344805a2be.sample"
+
+[deps]
+
+source_file="res://OvaniMusic/Jingles & Stingers/Update/Update Fizzy 002.wav"
+dest_files=["res://.godot/imported/Update Fizzy 002.wav-2eb0937391ce5e78ec229d344805a2be.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
